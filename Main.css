@@ -1,0 +1,13 @@
+@charset "utf-8";
+body {
+	background-size: cover;
+	background-color: #C5B358
+}div.image {
+	display: inline-block;
+	width: 715px;
+	
+}
+.chsheader {
+	color: #000000;
+}
+section{width: 15px;}

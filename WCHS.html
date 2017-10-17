@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WCHS</title>
+<link href="Main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="chsheader">
+<center><h1>Citrus High School Student News</h1></center></div> 
+<img src="Images/0823170859_HDR.jpg" width="1803" height="1014" alt=""/><p align="right">&nbsp;</p>
+<center>
+  <h2> Student News Staff </h2>   
+<h3>From left to right</h3>
+<h4>Shyanne Waller,Miles Scott,Lillian Shaw,and Michael Grill.</h4>
+<h4>Abigail Graham,Jessica Jones,Ethan Lopez,and Amanda Krom.</h4>
+<h4>Joshua Dunn,Allie Fisher,Ben Hale,and Haven McClare.</h4>
+   <h4>Tim Brown,Justine McClimont,and Braden Edmunds.</h4>
+    <div class="image">
+  <p><img src="Images/IMG_2546.JPG" width="143" height="165" alt=""/>
+  <img src="Images/IMG_2547.JPG" width="143" height="165" alt=""/>
+  <img src="Images/IMG_2548.JPG" width="143" height="165" alt=""/>
+  <img src="Images/IMG_2552.JPG" width="143" height="165" alt=""/>
+  <img src="Images/IMG_2549.JPG" width="143" height="165" alt=""/><img src="Images/IMG_2550.JPG" width="143" height="165" alt=""/>
+  <img src="Images/IMG_2555.JPG" width="143" height="165" alt=""/>
+  <img src="Images/IMG_2551.JPG" width="143" height="165" alt=""/>
+  <img src="Images/IMG_2556.JPG" width="143" height="165" alt=""/>
+  <img src="Images/IMG_2557.JPG" width="143" height="165" alt=""/><img src="Images/IMG_2560.JPG" width="143" height="165" alt=""/>
+  <img src="Images/IMG_2558.JPG" width="143" height="165" alt=""/>
+  <img src="Images/IMG_2559.JPG" width="143" height="165" alt=""/>
+  <img src="Images/IMG_2583.JPG" width="143" height="165" alt=""/>
+  <img src="Images/IMG_2554.JPG" width="143" height="165" alt=""/>
+</div>
+  <div>
+    <h4><a class="twitter-timeline" data-lang="en" data-theme="dark" data-link-color="#c5b358" href="https://twitter.com/wchsnewsch4" height="500" width="500">Tweets by wchsnewsch4</a></h4> 
+  <h2>Our latest video</h2>
+<iframe id="youtube_video" width="600" height="340" frameborder="0" allowfullscreen></iframe>
+</div></center>
+ <section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>												
+<div>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<center>
+<center><h2>Our Partners</h2></center>
+<img src="Images/345044772.png" width="386" height="100" alt=""/>
+<img src="Images/SPECTRUM_LOGO_NEWS_RGB_FLAT_BLACK_OW.png" width="368" height="100" alt=""/>
+<script>
+var channelID = "UCQ8Lzvb0mSz0p5XAmZoW1zw";
+$.getJSON('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.youtube.com%2Ffeeds%2Fvideos.xml%3Fchannel_id%3D'+channelID, function(data) { 
+   var link = data.items[0].link;
+   var id = link.substr(link.indexOf("=")+1);
+    $("#youtube_video").attr("src","https://youtube.com/embed/"+id + "?controls=0&showinfo=0&rel=0");
+});
+</script>
+</body>
